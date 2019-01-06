@@ -9,7 +9,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-Plug 'aliev/vimrc'
+Plug 'mindey/vimrc'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'w0rp/ale'
@@ -22,9 +22,11 @@ Plug 'airblade/vim-gitgutter'
 Plug 'neoclide/vim-jsx-improve'
 Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'tpope/vim-rhubarb'
-Plug 'tpope/vim-surround'
 " Plug 'jszakmeister/vim-togglecursor'
 Plug 'ap/vim-buftabline'
+Plug 'jamessan/vim-gnupg'
+Plug 'vimwiki/vimwiki'
+Plug 'epeli/slimux'
 
 " Initialize plugin system
 call plug#end()
