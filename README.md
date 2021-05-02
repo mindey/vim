@@ -3,7 +3,7 @@
 If you want only configuration file you should use [vimrc](http://github.com/aliev/vimrc) plugin.
 
 ```
-git clone git@github.com:aliev/vim.git ~/.vim
+git clone git@github.com:mindey/vim.git ~/.vim
 vim
 ```
 
