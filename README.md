@@ -5,6 +5,7 @@ If you want only configuration file you should use [vimrc](http://github.com/ali
 ```
 git clone git@github.com:mindey/vim.git ~/.vim
 vim
+:PlugInstall
 ```
 
 Tools: Ag, exuberant ctags
